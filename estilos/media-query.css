@@ -5,7 +5,7 @@
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
     }
     section#login {
-
+        height: 280px;
         width: 80vw;
     }
     section#login > div#imagem {
@@ -17,6 +17,18 @@
         float: right;
         width: 70%;
     }
+    div.campo > input {
+        background-color: #56bbb8;
+        font-size: 1.em;
+        height: 38px;
+        width: calc(100% - 37.4%);
+        position: absolute;
+        transform: translateY(-1.1px);
+    }
+    div.class > i {
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -25,6 +37,7 @@
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
@@ -40,6 +53,7 @@
         font-size: 2em;
     }
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
